@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "config": "^3.3.7",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "nodemon": "^2.0.16"
+  },
+  "name": "workappleationproject",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "prettier": "2.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
