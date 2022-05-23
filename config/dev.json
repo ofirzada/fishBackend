@@ -1,12 +1,19 @@
 {
-    "env":"dev",
-    "mongoConfig":
-    {
-        "conString": "mongodb+srv://admin:admin1@ofirprojects.hm1m7.mongodb.net/?retryWrites=true&w=majority",
-        "dbName": "sample_analytics",
-        "collectionName": "accounts"
-    },
-    "webConfig":{
-        "port":"8081"
-    }
+  "env": "dev",
+  "mongoConfig": {
+    "conString": "mongodb+srv://admin:admin1@ofirprojects.hm1m7.mongodb.net/?retryWrites=true&w=majority",
+    "dbName": "sample_analytics",
+    "collectionName": "accounts"
+  },
+  "mail":{
+    "auth": {
+        "user": "ofirzada2010@gmail.com",
+        "pass": "842278910"
+      }
+  },
+  "server": {
+    "port": "8081",
+    "ipAdress": "127.0.0.1",
+    "key":"hello"
+  }
 }

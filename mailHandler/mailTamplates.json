@@ -1,0 +1,7 @@
+
+{
+  "mailTamplate": {
+    "from": "theKingOfSpain@gmail.com",
+    "subject": "Sending Email using Node.js"
+  }
+}
